@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Documents</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        nav button {
+            padding: 10px 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            cursor: pointer;
+            font-size: 1em;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav button.active {
+            background-color: #007bff;
+            color: #fff;
+            border-color: #007bff;
+        }
+        nav button:hover:not(.active) {
+            background-color: #f0f0f0;
+        }
+        .content {
+            display: none;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .content.active {
+            display: block;
+        }
+        .content h1, .content h2, .content h3 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 20px;
+        }
+        .content h1 {
+            text-align: center;
+            font-size: 1.8em;
+            text-transform: capitalize;
+        }
+        .content h2 {
+            font-size: 1.4em;
+        }
+        .content h3 {
+            font-size: 1.2em;
+        }
+        .content p, .content li {
+            color: #555;
+        }
+        .content ul, .content ol {
+            padding-left: 25px;
+        }
+        .content .meta {
+            text-align: center;
+            color: #888;
+            font-style: italic;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Legal Information</h1>
+        <p>Video Analytics for TikTok Creators</p>
+    </header>
+
+    <nav>
+        <button id="btn-ts" class="active" onclick="showContent('ts')">Terms of Service</button>
+        <button id="btn-pp" onclick="showContent('pp')">Privacy Policy</button>
+    </nav>
+
+    <main>
+        <div id="content-ts" class="content active">
+            <h1>Terms Of Service</h1>
+            <p class="meta">Last Updated: 2025-11-8</p>
+            <h2>1. ACCEPTANCE OF TERMS</h2>
+            <p>you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Service.</p>
+            <h2>2. DESCRIPTION OF SERVICE</h2>
+            <p>This is a video analytics platform that helps TikTok content creators analyze their video performance and improve content quality. Our Service integrates with TikTok's API to provide insights and analytics.</p>
+            <h2>3. TIKTOK INTEGRATION</h2>
+            <h3>3.1. Our Service uses TikTok's API and is subject to TikTok's Terms of Service and Developer Policy.</h3>
+            <h3>3.2. By using our Service, you authorize us to access your TikTok data as described in our Privacy Policy.</h3>
+            <h3>3.3. We comply with all TikTok API usage requirements and data handling policies.</h3>
+            <h2>4. USER ACCOUNTS</h2>
+            <h3>4.1. You must connect your TikTok account to use our Service.</h3>
+            <h3>4.2. You are responsible for maintaining the confidentiality of your account credentials.</h3>
+            <h3>4.3. You must be at least 13 years old (or the minimum age in your jurisdiction) to use our Service.</h3>
+            <h2>5. PERMITTED USE</h2>
+            <p>You agree to use our Service only for:</p>
+            <ul>
+            <li>Analyzing your own TikTok video performance metrics</li>
+            <li>Improving your content quality based on data insights</li>
+            <li>Legitimate content creation and optimization purposes</li>
+            </ul>
+            <h2>6. PROHIBITED USE</h2>
+            <p>You may NOT use our Service to:</p>
+            <ul>
+            <li>Violate TikTok's Terms of Service or Community Guidelines</li>
+            <li>Access or collect data from other users without authorization</li>
+            <li>Engage in spam, manipulation, or artificial engagement tactics</li>
+            <li>Resell or redistribute data obtained through our Service</li>
+            <li>Reverse engineer or attempt to extract our algorithms</li>
+            </ul>
+            <h2>7. DATA USAGE</h2>
+            <h3>7.1. We collect and analyze video performance data as described in our Privacy Policy.</h3>
+            <h3>7.2. All data analysis is performed to provide you with insights to improve your content.</h3>
+            <h3>7.3. We do not sell your personal data to third parties.</h3>
+            <h2>8. INTELLECTUAL PROPERTY</h2>
+            <h3>8.1. Our Service, including all software, algorithms, and design, is owned by [YOUR COMPANY NAME].</h3>
+            <h3>8.2. You retain all rights to your TikTok content and data.</h3>
+            <h2>9. SERVICE AVAILABILITY</h2>
+            <h3>9.1. We strive to maintain Service availability but do not guarantee uninterrupted access.</h3>
+            <h3>9.2. We may suspend or terminate the Service for maintenance, updates, or at our discretion.</h3>
+            <h2>10. LIMITATION OF LIABILITY</h2>
+            <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, [YOUR COMPANY NAME] SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF THE SERVICE.</p>
+            <h2>11. CHANGES TO TERMS</h2>
+            <p>We reserve the right to modify these Terms at any time. Continued use of the Service after changes constitutes acceptance of the modified Terms.</p>
+            <h2>12. TERMINATION</h2>
+            <h3>12.1. You may terminate your account at any time by disconnecting your TikTok account.</h3>
+            <h3>12.2. We may terminate or suspend access to our Service immediately, without prior notice, for any breach of these Terms.</h3>
+            <h2>13. GOVERNING LAW</h2>
+            <p>These Terms shall be governed by the laws of [YOUR JURISDICTION].</p>
+            <h2>14. CONTACT INFORMATION</h2>
+            <p>For questions about these Terms, please contact us at:</p>
+            <p>Email: takuya.t.716@gmail.com</p>
+        </div>
+        <div id="content-pp" class="content">
+            <h1>Privacy Policy</h1>
+            <p class="meta">Last Updated: [DATE]</p>
+            <h2>1. INTRODUCTION</h2>
+            <p>This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our Service.</p>
+            <p>By using our Service, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+            <h2>2. INFORMATION WE COLLECT</h2>
+            <h3>2.1. TikTok Account Information</h3>
+            <p>When you connect your TikTok account, we collect:</p>
+            <ul>
+            <li>TikTok username and profile information</li>
+            <li>Public profile data (display name, avatar, bio)</li>
+            <li>Account authentication tokens</li>
+            </ul>
+            <h3>2.2. Video Performance Data</h3>
+            <p>We collect analytics data about your TikTok videos, including:</p>
+            <ul>
+            <li>Video metadata (title, description, hashtags, posting time)</li>
+            <li>Engagement metrics (views, likes, comments, shares)</li>
+            <li>Performance statistics and trends</li>
+            <li>Audience demographics (if available through TikTok API)</li>
+            </ul>
+            <h3>2.3. Usage Data</h3>
+            <p>We automatically collect:</p>
+            <ul>
+            <li>Service usage patterns and interactions</li>
+            <li>Device information (browser type, IP address, operating system)</li>
+            <li>Cookies and similar tracking technologies</li>
+            </ul>
+            <h3>2.4. Information You Provide</h3>
+            <ul>
+            <li>Feedback and support requests</li>
+            <li>Communication with our Service</li>
+            </ul>
+            <h2>3. HOW WE USE YOUR INFORMATION</h2>
+            <p>We use collected information to:</p>
+            <ul>
+            <li>Provide video analytics and performance insights</li>
+            <li>Help you improve your content quality and strategy</li>
+            <li>Generate reports and visualizations of your TikTok data</li>
+            <li>Maintain and improve our Service</li>
+            <li>Communicate with you about Service updates</li>
+            <li>Ensure compliance with TikTok's API policies</li>
+            <li>Detect and prevent fraud or security issues</li>
+            </ul>
+            <h2>4. DATA SHARING AND DISCLOSURE</h2>
+            <h3>4.1. We Do NOT Sell Your Data</h3>
+            <p>We do not sell, rent, or trade your personal information to third parties for marketing purposes.</p>
+            <h3>4.2. Third-Party Services</h3>
+            <p>We may share data with:</p>
+            <ul>
+            <li>TikTok (as required by their API Terms)</li>
+            <li>Analytics providers (e.g., Google Analytics) - aggregated data only</li>
+            <li>Cloud service providers for data storage and processing</li>
+            <li>Legal authorities when required by law</li>
+            </ul>
+            <h3>4.3. TikTok Integration</h3>
+            <p>Our Service operates under TikTok's API Terms of Service. Data obtained from TikTok is used solely for providing analytics services to you and is handled in compliance with TikTok's data policies.</p>
+            <h2>5. DATA RETENTION</h2>
+            <h3>5.1. We retain your data for as long as your account is active or as needed to provide services.</h3>
+            <h3>5.2. You can request deletion of your data at any time (see Section 8).</h3>
+            <h3>5.3. We may retain certain data for legal compliance or legitimate business purposes.</h3>
+            <h2>6. DATA SECURITY</h2>
+            <p>We implement industry-standard security measures to protect your data:</p>
+            <ul>
+            <li>Encryption of data in transit (SSL/TLS)</li>
+            <li>Encrypted storage of sensitive information</li>
+            <li>Regular security audits and updates</li>
+            <li>Access controls and authentication mechanisms</li>
+            <li>Compliance with TikTok's security requirements</li>
+            </ul>
+            <p>However, no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security.</p>
+            <h2>7. YOUR DATA RIGHTS</h2>
+            <p>You have the right to:</p>
+            <ul>
+            <li>Access your personal data we hold</li>
+            <li>Request correction of inaccurate data</li>
+            <li>Request deletion of your data</li>
+            <li>Withdraw consent for data processing</li>
+            <li>Object to certain data processing activities</li>
+            <li>Export your data in a portable format</li>
+            <li>Disconnect your TikTok account at any time</li>
+            </ul>
+            <h2>8. HOW TO EXERCISE YOUR RIGHTS</h2>
+            <p>To exercise any of these rights:</p>
+            <ul>
+            <li>Email us at [YOUR EMAIL]</li>
+            <li>Use the account settings within our Service</li>
+            <li>Disconnect your TikTok integration through TikTok's settings</li>
+            </ul>
+            <p>We will respond to your request within 30 days.</p>
+            <h2>9. INTERNATIONAL DATA TRANSFERS</h2>
+            <p>Your data may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place to protect your data in compliance with applicable laws.</p>
+            <h2>10. CHILDREN'S PRIVACY</h2>
+            <p>Our Service is not intended for users under 13 years of age. We do not knowingly collect data from children under 13. If you believe we have collected data from a child, please contact us immediately.</p>
+            <h2>11. COOKIES AND TRACKING TECHNOLOGIES</h2>
+            <p>We use cookies and similar technologies to:</p>
+            <ul>
+            <li>Maintain your login session</li>
+            <li>Remember your preferences</li>
+            <li>Analyze Service usage patterns</li>
+            <li>Improve user experience</li>
+            </ul>
+            <p>You can control cookie settings through your browser, but this may limit Service functionality.</p>
+            <h2>12. COMPLIANCE WITH REGULATIONS</h2>
+            <p>We comply with:</p>
+            <ul>
+            <li>General Data Protection Regulation (GDPR) for EU users</li>
+            <li>California Consumer Privacy Act (CCPA) for California residents</li>
+            <li>Other applicable data protection laws</li>
+            <li>TikTok Developer Terms and Data Policy</li>
+            </ul>
+            <h2>13. CHANGES TO THIS PRIVACY POLICY</h2>
+            <p>We may update this Privacy Policy periodically. We will notify you of significant changes by:</p>
+            <ul>
+            <li>Posting the new Privacy Policy on this page</li>
+            <li>Updating the "Last Updated" date</li>
+            <li>Sending email notifications for material changes</li>
+            </ul>
+            <h2>14. TIKTOK-SPECIFIC PROVISIONS</h2>
+            <h3>14.1. We access TikTok data only as permitted by TikTok's API Terms of Service.</h3>
+            <h3>14.2. We do not use TikTok data for purposes other than providing our analytics Service.</h3>
+            <h3>14.3. We comply with all TikTok data retention and deletion requirements.</h3>
+            <h3>14.4. Users can revoke our access to TikTok data through TikTok's app permissions at any time.</h3>
+            <h2>15. CONTACT US</h2>
+            <p>If you have questions or concerns about this Privacy Policy:</p>
+            <p>Email: takuya.t.716@gmail.com</p>
+            <p>For TikTok-related data concerns, you may also contact TikTok directly through their privacy support channels.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [YOUR COMPANY NAME]. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showContent(id) {
+            document.getElementById('content-ts').classList.remove('active');
+            document.getElementById('content-pp').classList.remove('active');
+            document.getElementById('btn-ts').classList.remove('active');
+            document.getElementById('btn-pp').classList.remove('active');
+
+            document.getElementById('content-' + id).classList.add('active');
+            document.getElementById('btn-' + id).classList.add('active');
+        }
+    </script>
+</body>
+</html>
